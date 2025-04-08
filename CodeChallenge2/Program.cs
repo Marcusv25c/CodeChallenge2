@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
+            // a List for all the ingredients 
             List<string> ingredients = new List<string>();
 
+            // Adding all elements to the list
             ingredients.Add("200 g Hvedemel (ca. 3½ dl)");
             ingredients.Add("2 teskefuld Bagepulver");
             ingredients.Add("½ teskefuld Fint Salt");
@@ -18,6 +20,7 @@
 
             Console.WriteLine("Banankage!!\n");
 
+            // foreach iteration to loop through all elements on the List. Prints out everything in Console
             foreach (string ingredient in ingredients)
             {
                 Console.WriteLine(ingredient);
